@@ -1,0 +1,47 @@
+html {
+  background-image: url("images/GOLDEN%20AGE.gif");   /* Loads the Superman gif as background image */
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: 1275px 900px;              /* sets width and height of background image */ 
+} 
+
+body {
+  width: 800px;          
+  padding: 10px 100px;       /*top and bottom padding are 10px and right and left padding are 100px */
+  margin: 0 auto;  /* top and bottom margins are 0px and right and left margins are set to auto*/
+  margin-left: 100px;    /*left margin is set to 100px */
+  color: white;
+  font-family: "verdana"
+}
+
+a:link, a:visited {
+  color: white;
+}            /* for unvisited and visited links the colour of the link will be white */
+
+h1 {
+    text-align: center;
+    color: RED;
+    margin: auto auto;
+}
+div {
+    text-align: center;
+    color: yellow
+}
+img{
+    margin-left: -20000;
+    margin-top: -10px;
+    width: 150px;
+    height: 100px;
+}             /* sets characteristics for superman logo image */
+.btn{
+    background-color: Red;
+    border: none;
+    color:white;
+    padding 12px 30px;   /* top and bottom paddings are 12px while left and right paddings are 30px*/
+    font-size: 20px;
+    cursor: pointer;  /*cursor is a pointer and indicates a link */
+    
+}
+.btn:hover {
+    background-color: royalblue;
+}
